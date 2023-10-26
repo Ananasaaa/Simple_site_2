@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family:"Roboto", sans-serif;
+}
+.first-section {
+    background-color: #EEEFF1;
+}
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 200px;
+}
+.nav {
+    padding-top: 79px;
+    margin-bottom: 100px;
+}
+li.nav-item {
+     display: inline-block;
+     margin-right: 30px;
+}
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+}
+.nav-link.active {
+    color: #34547A;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+    color:  #000000;
+    padding-bottom: 50px;
+}
+.main {
+    padding-bottom: 200px;
+}
+.txt {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    max-width: 540px;
+    line-height: 26.25px;
+    margin-bottom: 50px;
+}
+.btn-blue {
+    background-color: #34547A;
+    color: #fff;
+    border: none;
+    padding: 18px 52px;
+    letter-spacing: 1.6px;
+    font-size: 16px;
+}
+.content-box {
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+.about_me {
+    padding: 70px 0;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.projects {
+    background-color: #34547A;
+    padding: 100px 0;
+}
+li.project-item {
+    display: inline-block;
+}
+.txt--white {
+    color: #fff;
+}
+.project-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project-item {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+}
+li.project-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.project-text {
+    max-width: 103px;
+}
+.process-h2 {
+    margin-top: 50px;
+}
+.work {
+    background-color: #EEEFF1;
+    padding: 70px;
+}
+.iframe {
+    max-width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}
+.footer {
+    background-color: #34547A;
+    padding: 49px 0 38px;
+}
+.h5 {
+    font-weight: 500;
+    font-size: 21px;
+}
+.txt-sm {
+    font-size: 13px;
+}
+.footer-h5 {
+    margin-bottom: 20px;
+}
