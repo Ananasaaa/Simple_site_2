@@ -3,18 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
+
 body {
-    font-family:"Roboto", sans-serif;
+      font-family: "Roboto", sans-serif;
 }
+
 .first-section {
     background-color: #EEEFF1;
 }
 .container {
-    max-width: 1920px;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 0 200px;
+    padding: 0 15px;
 }
 .nav {
     padding-top: 79px;
